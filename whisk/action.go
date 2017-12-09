@@ -27,7 +27,7 @@ import (
 )
 
 type ActionService struct {
-    client *Client
+    client ClientInterface
 }
 
 type Action struct {
